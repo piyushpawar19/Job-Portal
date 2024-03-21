@@ -1,0 +1,33 @@
+= npm init (initialization of npm) -- node package manager -- package can be downloaded from this npm
+= to create a server we install express package
+it is the framework of nodejs used for creating rest api - most popular
+= node_module contains or add the dependencies of npm packeages
+= to use the functionalities of package we store it into the varialble 
+= after that create rest object , now this objects conatains all the features of express through this we can create route , perform the routing and middleware
+= listen - to run the server 
+
+= postman - rest api testing tool
+= get - access directly in browser and for other methods post, put we want client for that (react vue)
+
+= nodemon - automatic server restart when detect changes
+
+
+= dotenv - store the environment varialble like password,token, port, db address, payment gateway and its is used for securing node 
+= colors package - show colorfull msg in terminal
+
+= mvc - model(schemas ,db) view(template engine, frontend lib like react vue) controller(api,logic,functionalities)
+
+mvc is pattern in s/w design pattern and emphasize on logic and functionalities
+
+// to connect to mongodb db we need install moongoose
+connect nodejs to mongdb db and perform crud operations
+
+// cors m/w - as nodejs application running on diff port & when we connect this to reactjs - to connect both reactjs and nodejs we have to enable cors otherwise we get cors origin error
+// morgan npm tells or print in console - which rest api hit and time taken & request detail in the console
+
+// app.use(express.json());
+this m/w used when we are dealing with json data and tell  about json data to application
+
+// hashing(encryption of data in hex value) - to protect the password - for this we use bcryptjs package 
+
+//json web token - used for authentication
